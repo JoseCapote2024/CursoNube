@@ -1,0 +1,30 @@
+
+.auth-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.auth-form{
+  width: 500px;
+  max-width: 80%;
+  border-radius: 1pt;
+  padding: 30px;
+  border: 1px solid #EEE;
+}
+
+.auth-form .form-control{
+  border-radius: 2px;
+}
+
+.auth-form-content{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.auth-form-forget{
+  font-size: 10px;
+  float: right;
+}
