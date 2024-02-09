@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Home = () =>{
   return(
-    <div className="container">
-      <div className="row">
+    <div className="container container-home">
+      <div className="row container-home-inter">
         <div className="col-12">
           <div className="jumbotron">
              <h1>DoctorSched</h1>
@@ -15,7 +15,7 @@ const Home = () =>{
           </div>
         </div>
       </div>
-      <div className="row" >
+      <div className="row" style={{marginLeft: "50%"}}>
         <div className="col-6 py-3">
           <h3>Nuestros servicios</h3>
         </div>
@@ -24,11 +24,11 @@ const Home = () =>{
         </div>
       </div>
       
-      <div className="row">
+      <div className="row" >
 
       </div>
 
-      <footer>
+      <footer style={{marginLeft: "50%"}}>
         DoctorSched -- marca registrada 2023-2024
       </footer>
     </div>

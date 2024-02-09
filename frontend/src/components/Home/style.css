@@ -1,6 +1,12 @@
-.jumbotron{
-  background-color: azure;
+.container-home {
+  margin-top: 15%;
+}
+
+.jumbotron {
+  width: 50%;
+  background: linear-gradient(#2f0084, #eee);
   padding: 5em;
   border-radius: 4px;
   border: 2px solid #eee;
+  margin-left: 50%;
 }

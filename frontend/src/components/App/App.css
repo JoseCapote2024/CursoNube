@@ -1,14 +1,17 @@
-
-.App{
+.App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: rgb(0, 93, 199);
+  color: #2f0084;
+  /* background-color:  rgba(236, 255, 249, 0.5); */
+  background-image: url("../../assets/logo2.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.App-body{
-  height:50vh
+.App-body {
+  height: 50vh;
 }
 
 .App-logo {

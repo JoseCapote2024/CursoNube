@@ -1,0 +1,24 @@
+version: '2'
+services:
+  deploy_backend:
+    image: cristiantobar/doctor-scheduler-backend-fcdt
+    container_name: cdt-backend
+    expose:
+      - 9030
+    ports:
+      - "9030:9030"
+    networks:
+      - doctorscheduler
+  deploy_frontend:
+    image: cristiantobar/doctor-scheduler-frontend-fcdt
+    container_name: cdt-frontend
+    expose:
+      - 80
+    ports:
+      - "80:3000"
+    networks:
+      - doctorscheduler
+
+networks:
+  doctorscheduler:
+    driver: bridge
